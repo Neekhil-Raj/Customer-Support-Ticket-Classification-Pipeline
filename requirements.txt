@@ -1,0 +1,49 @@
+# Core dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic[email]==2.5.0
+python-multipart==0.0.6
+
+# Data processing
+pandas==2.1.4
+numpy>=1.26.0
+scikit-learn==1.3.2
+
+# NLP and ML - UPDATED VERSIONS
+spacy==3.7.2
+nltk==3.8.1
+transformers==4.36.0
+torch>=2.2.0  # Use available version instead of 2.1.2
+tensorflow==2.15.0
+
+# Image processing
+opencv-python==4.8.1.78
+pytesseract==0.3.10
+Pillow==10.1.0
+
+# Database
+mysql-connector-python==8.2.0
+pymongo==4.6.1
+sqlalchemy==2.0.25
+
+# Message queue
+kafka-python==2.0.2
+
+# ML Operations
+mlflow==2.9.2
+onnx==1.15.0
+joblib==1.3.2
+
+# API and web
+requests==2.31.0
+httpx==0.25.2
+
+# Development
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# Deployment
+gunicorn==21.2.0
+
+# OpenAI integration
+openai==1.6.1
